@@ -34,7 +34,7 @@ PRODUCT_COPY_FILES += \
 # ColumbusService
 ifneq ($(TARGET_SUPPORTS_QUICK_TAP),false)
 PRODUCT_PACKAGES += \
-    ColumbusService
+    
 endif
 
 # Enable Material Design 3 Expressive
@@ -46,15 +46,15 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 
 # Extra packages
 PRODUCT_PACKAGES += \
-    AxQuickLook \
-    AxSandbox \
-    AxThemeStore \
-    BatteryStatsViewer \
-    GameSpace \
+     \
+     \
+     \
+     \
+     \
     LMOFreeform \
-    LMOFreeformSidebar \
-    OmniJaws \
-    OmniStyle
+     \
+     \
+    
 
 ifneq ($(TARGET_DISABLE_MATLOG),true)
 PRODUCT_PACKAGES += \
@@ -63,7 +63,7 @@ endif
 
 ifneq ($(TARGET_FACE_UNLOCK_SUPPORTED),false)
 PRODUCT_PACKAGES += \
-    FaceUnlock
+    
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.face.sense_service=true
